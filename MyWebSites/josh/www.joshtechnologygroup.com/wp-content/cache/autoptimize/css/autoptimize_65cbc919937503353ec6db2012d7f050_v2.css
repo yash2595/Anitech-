@@ -99,3 +99,19 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
 
 @media (max-width: 767px) { .solutions__text_header.not-mobile { display: none !important; } }
+@media (max-width: 1024px) {
+    .solutions__text_header.not-mobile,
+    .solutions__text_header {
+        display: block !important;
+        position: static !important;
+        transform: none !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        padding: 3rem 1rem !important;
+        text-align: center !important;
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        top: 0 !important;
+    }
+}
