@@ -62,7 +62,7 @@ function serveFile($filePath, $mimeTypes) {
 
 // Root path "/" -> redirect to site
 if ($requestUri === '/' || $requestUri === '') {
-    header('Location: /www.joshtechnologygroup.com/');
+    header('Location: /anitech/');
     exit;
 }
 
@@ -92,5 +92,5 @@ echo "<!DOCTYPE html><html><head><title>404 Not Found</title></head>";
 echo "<body style='font-family:sans-serif;padding:40px;text-align:center;'>";
 echo "<h1>404 - File Not Found</h1>";
 echo "<p>The requested resource <code>" . htmlspecialchars($requestUri) . "</code> was not found.</p>";
-echo "<a href='/www.joshtechnologygroup.com/'>Go to Homepage</a>";
+echo "<a href='/anitech/'>Go to Homepage</a>";
 echo "</body></html>";
