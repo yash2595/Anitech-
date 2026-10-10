@@ -23,10 +23,26 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
 
 
-/* Override site__logo background to white for transparent logo */
+
+/* Add white background box to sidebar logo */
 .site__logo {
-    background-color: #ffffff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
-.site__logo img {
-    padding: 20px;
+.site__logo a.custom-logo-link {
+    background-color: #ffffff !important;
+    padding: 25px !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 85% !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+}
+.site__logo a.custom-logo-link img {
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
 }
